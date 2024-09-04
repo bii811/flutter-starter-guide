@@ -11,7 +11,6 @@
 - [Set Up Visual Studio Code (Optional)](#set-up-visual-studio-code-optional)
 - [Run Your First Flutter App](#run-your-first-flutter-app)
 - [Keeping Flutter and Tools Up to Date](#keeping-flutter-and-tools-up-to-date)
-- [Conclusion](#conclusion)
 
 ## System Requirements
 
@@ -24,13 +23,13 @@ Ensure your system meets the following minimum requirements:
 ## Install Git for Windows
 
 1. **Download Git**: Visit [Git for Windows](https://git-scm.com/) and download the latest version.
-2. **Install Git**: Run the installer and follow the setup instructions. Make sure to select the option “Use Git from the Windows Command Prompt” during the installation.
+2. **Install Git**: Run the installer and follow the setup instructions. Make sure to select the option "Use Git from the Windows Command Prompt" during the installation.
 
 ## Download Flutter SDK
 
 1. **Download Flutter SDK**: Go to the [Flutter official website](https://flutter.dev/docs/get-started/install/windows) and download the latest stable release of the Flutter SDK.
 2. **Extract Flutter SDK**:
-   - Right-click the downloaded ZIP file and select “Extract All…”.
+   - Right-click the downloaded ZIP file and select "Extract All ...".
    - Choose the location where you want to store the SDK (e.g., `C:\src\flutter`).
 3. **Update Path**:
    - Open **Start Menu**, search for **Environment Variables**, and select **Edit the system environment variables**.
@@ -111,7 +110,7 @@ Ensure your system meets the following minimum requirements:
 
    ![alt text](./img/Screenshot%202024-09-04%20152616.png "image")
 
-## Step 7: Set Up Visual Studio Code (Optional)
+## Set Up Visual Studio Code (Optional)
 
 1. Install VS Code: Download and install Visual Studio Code.
 2. Install Flutter Extension:
