@@ -159,5 +159,62 @@ Ensure your system meets the following minimum requirements:
       flutter upgrade
       ```
 
+      or
+
+      ```bash
+      flutter upgrade --force
+      ```
+
+      ![alt text](./img/Screenshot%202024-09-05%20140502.png "image")
+
+   - Verify
+
+      ```bash
+      flutter doctor
+      ```
+
+      ![alt text](./img/Screenshot%202024-09-05%20140512.png "image")
+
 2. Update Android Studio:
    - Check for updates regularly within Android Studio to ensure you’re using the latest version of the Android SDK and related tools.
+
+## Open Exists Flutter project
+
+1. Open project
+   - Open VS Code
+
+      ![alt text](./img/Screenshot%202024-09-05%20141634.png "image")
+
+   - Click Open Folder then select project folder
+
+      ![alt text](./img/Screenshot%202024-09-05%20141806.png "image")
+
+   - To check project's packages outdated Press Ctrl + ` to open terminal then type
+
+      ```bash
+      flutter outdated
+      ```
+
+      ![alt text](./img/Screenshot%202024-09-05%20140523.png "image")
+
+   - To upgrade packages
+
+      ```bash
+      flutter upgrade
+      ```
+
+2. Run project on android emulator
+
+   - Select emulator
+
+      ![alt text](./img/Screenshot%202024-09-05%20142509.png "image")
+
+   - Run project
+
+      ```bash
+      flutter run
+      ```
+
+      or click debug icon
+
+      ![alt text](./img/Screenshot%202024-09-05%20143144.png "image")
